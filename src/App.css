@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.app-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.app-content div {
+  flex: 1;
+  margin: 10px;
+}
+
+.app-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
